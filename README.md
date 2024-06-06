@@ -1,23 +1,26 @@
 Algorithm for Checking Palindrome in Java
-Initialize Variables:
+1. Initialize Variables:
 
-Set left to 0.
-Set right to the length of the word minus 1.
-Looping Condition:
+* Set left to 0.
+* Set right to the length of the word minus 1.
 
-While left is less than right.
-Comparison:
+2. Looping Condition:
 
-Compare character at index left with character at index right.
-If not equal, return false.
-Move Indices:
+* While left is less than right.
 
-Increment left by 1.
-Decrement right by 1.
-Completion:
+ 3. Comparison:
 
-If loop completes, return true.
-Output:
+* Compare character at index left with character at index right.
+* If not equal, return false.
 
-Call isPalindrome function with the word to check.
-It Prints the result(string is palindrome or string is not palindrome).
+4.Move Indices:
+
+* left by 1.
+* Decrement right by 1.
+
+5.Completion:
+* If loop completes, return true.
+
+6. Output:
+* Call isPalindrome function with the word to check.
+* It Prints the result(string is palindrome or string is not palindrome).
